@@ -1,0 +1,74 @@
+.options {
+    color: red;
+    background-color: black;
+}
+.table {
+    background-color: burlywood;
+    width: 100%;
+    font-family: arial, sans-serif;
+    
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+body{
+      background-image:url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages2.alphacoders.com%2F461%2F461861.jpg&f=1&nofb=1")
+  }
+  
+  
+  .pics{
+    height:400px;
+    width:700px;
+    display:inline-block;
+    border-radius: 50px;
+
+}
+
+#nav{
+    color: peru;
+    
+    font-weight: bold;
+}
+li {
+    color: white;
+    font-size:20px;
+}
+header{
+    display:inline-block;
+    position:fixed;
+}
+
+
+.hpics img{
+    height:125px;
+    width: 155px;
+}
+figcaption{
+    color: white;
+    font-size:26px;
+    font-weight:bold;
+    width: 100%;
+}
+footer {
+    background-color: rgb(186, 194, 194);
+    padding-left: 6%;
+    border-radius: 25px;
+}
+h2{
+    font-family: "comic sans ms";
+}
+h1 {
+    font-size: 70px;
+    font-family: "comic sans ms";
+    font-weight:bold;
+    position:absolute;
+    top: 3px;
+    left: 47%;
+    right:53%;    
+}
