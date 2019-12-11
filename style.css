@@ -18,8 +18,16 @@ tr:nth-child(even) {
   }
 
 body{
-      background-image:url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages2.alphacoders.com%2F461%2F461861.jpg&f=1&nofb=1")
-  }
+      background-image:url("https://image.shutterstock.com/image-photo/light-colorful-background-beautiful-bright-260nw-1386218081.jpg");
+      background-size: cover;
+      size:16px;
+    }
+    article {
+        font-weight: bold;
+        line-height: 1.5;
+        margin-left:10%;
+        margin-right:10%;
+    }
   
   
   .pics{
@@ -29,16 +37,16 @@ body{
     border-radius: 49px;
 
 }
+@media only screen and (max-width: 480px) {
 
-#nav{
-    color: peru;
-    
-    font-weight: bold;
+    .pics {
+        width: 85%;
+        height: 85%;
+    }
+
 }
-li {
-    color: white;
-    font-size:20px;
-}
+
+
 header{
     display:inline-block;
     position:fixed;
@@ -50,10 +58,13 @@ header{
     width: 155px;
 }
 figcaption{
-    color: white;
+    color: rgb(212, 9, 168);
     font-size:26px;
     font-weight:bold;
     width: 100%;
+}
+.pic2 {
+    color: rgb(17, 6, 6);
 }
 footer {
     background-color: rgb(186, 194, 194);
@@ -62,13 +73,47 @@ footer {
 }
 h2{
     font-family: "comic sans ms";
+    color:rgb(17, 6, 6);
 }
 h1 {
-    font-size: 70px;
-    font-family: "comic sans ms";
-    font-weight:bold;
-    position:absolute;
-    top: 3px;
-    left: 47%;
-    right:53%;    
+      
+    
+    background-color: blue;
+    border-radius: 25px;
+    color: white; 
+    text-align: center;
+    font-weight: 1000;
+    font-size: 50px;
+    font-family:sans-serif;
+    padding-bottom: 10px;
+    justify-content: center;
+    margin-top:95px;
 }
+
+nav {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+nav a:hover {
+    background: #ddd;
+    color: black;
+  }
+@media only screen and (max-width: 480) {
+
+    h1 {
+        margin: 0 auto;
+    }
+    
+    }
